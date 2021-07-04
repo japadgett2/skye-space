@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>Bank of Dad</h1>
+    <h1>Bank of Mr. Dad</h1>
     <b-table striped hover :items="items"></b-table>
   </div>
 </template>
@@ -11,10 +11,9 @@
     data() {
       return {
         items: [
-          { age: 40, first_name: 'Dickerson', last_name: 'Macdonald' },
-          { age: 21, first_name: 'Larsen', last_name: 'Shaw' },
-          { age: 89, first_name: 'Geneva', last_name: 'Wilson' },
-          { age: 38, first_name: 'Jami', last_name: 'Carney' }
+          { date: '06/15/2021', credit: 0, debit: 0, total: 0.00 },
+          { date: '06/16/2021', credit: 12, debit: 0, total: 12.00 },
+          { date: '07/02/2021', credit: 0.60, debit: 0, total: 12.60 },
         ]
       }
     }
